@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.questionnaire {
+    padding: 10px;
+    text-align: center;
+}
+
+.card,
+.pagination {
+    max-width: 800px;
+}
+
+.card {
+    background: #f4f4f4;
+    border-radius: 10px;
+    margin: 10vh auto 50px auto;
+    min-height: 200px;
+    padding: 30px 10px 20px 10px;
+    text-align: center;
+}
+
+.card__title {
+    margin-bottom: 30px;
+}
+
+.card__desc {
+    font-size: 18px;
+}
+
+.card__answer {
+    width: 80%;
+}
+
+.pagination {
+    margin: 0 auto;
+}
+
+.pagination__number {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
